@@ -1,0 +1,25 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 14:57:39 -0300
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (14.3ms)
+Completed 200 OK in 107ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 15:07:21 -0300
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-03 15:07:29 -0300
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 13ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCEsYKEPVyIVEeABYoiwCwmUEXIpPLvTLkBKayi0ESxUNhGoXUq0diovSTj7kK2rEl1JZCi_O8D2GGJXK3xETLn6eLHuymXKODsqsdBbKX8Lx1zIj7fZrpWFuggdWSsxOJCPsRk-QTfBnku-RovqHuLHStSSAWUqy4c3_PV6D_PXFnox2J36uitu3P1CqA_oWqTyeKa7a2N5QrX00ctZOXp" for 127.0.0.1 at 2012-02-03 15:11:35 -0300
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCEsYKEPVyIVEeABYoiwCwmUEXIpPLvTLkBKayi0ESxUNhGoXUq0diovSTj7kK2rEl1JZCi_O8D2GGJXK3xETLn6eLHuymXKODsqsdBbKX8Lx1zIj7fZrpWFuggdWSsxOJCPsRk-QTfBnku-RovqHuLHStSSAWUqy4c3_PV6D_PXFnox2J36uitu3P1CqA_oWqTyeKa7a2N5QrX00ctZOXp"}
+Rendered home/callback.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 2445ms (Views: 9.0ms | ActiveRecord: 0.0ms)
